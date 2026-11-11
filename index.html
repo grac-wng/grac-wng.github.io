@@ -468,7 +468,7 @@
         function luckySnippet() {
             const icon = $('#lucky-icon');
             icon.addClass('spinning');
-            const randomNum = Math.floor(Math.random() * 25) + 1;
+            const randomNum = Math.floor(Math.random() * 28) + 1;
             const targetPath = "docs/snippet (" + randomNum + ").png";
             const tempImg = new Image();
             tempImg.src = targetPath;
@@ -482,7 +482,7 @@
         function luckyFormalPiece() {
             const icon = $('#formal-icon');
             icon.addClass('spinning'); 
-            const randomNum = Math.floor(Math.random() * 7) + 1;
+            const randomNum = Math.floor(Math.random() * 8) + 1;
             const targetPath = "docs/doc (" + randomNum + ").pdf";
             window.open(targetPath, '_blank');
             setTimeout(() => { icon.removeClass('spinning'); }, 800);
