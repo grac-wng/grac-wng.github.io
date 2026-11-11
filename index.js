@@ -2,7 +2,7 @@ $(document).ready(function() {
     // Hide loader
     setTimeout(function() { $("#loading").fadeOut(600); }, 150);
 
-    // Accordion Control
+    // accordion control
     $(".collapsible").on("click", function() {
         this.classList.toggle("active");
         var content = this.nextElementSibling;
@@ -13,7 +13,7 @@ $(document).ready(function() {
         }
     });
 
-    // Smooth Scrolling
+    // smooth scrolling
     $('a[href*="#"]').on('click', function(e) {
         var target = $(this.hash);
         if (target.length) {
